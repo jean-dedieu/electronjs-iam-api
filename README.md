@@ -1,4 +1,15 @@
-# Begin with ElectonJS
+
+
+
+#Install the project
+
+       git clone 
+       
+       make sure your are in the project folder
+
+       Then do: yarn install
+       
+       Then yarn start
 
 
 **Install ElectonJS globally on your local machine**
@@ -19,12 +30,12 @@
 
 **You are ready to run your electronJS app**
 
-  Do: yarn start
+      Do: yarn start
 
 **Understanding the project files and structure**
 
-  index.html: will display pages
-  main.js: will create windows
+    index.html: will display pages
+     main.js: will create windows
 
 
 
