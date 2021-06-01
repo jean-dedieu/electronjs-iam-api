@@ -1,7 +1,16 @@
 
 
 
-#Install the project
+**Installing our simplon project**
+
+Prerequisites: 
+          ElectronJS:
+          
+  Install it on your local machine with:
+  
+       yarn global add electon
+       
+*Installing our simplon project**
 
        git clone 
        
@@ -9,8 +18,13 @@
 
        Then do: yarn install
        
-       Then yarn start
+       Then do: yarn start
 
+
+
+
+
+**Initialize a new project**
 
 **Install ElectonJS globally on your local machine**
 
