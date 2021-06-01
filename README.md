@@ -6,13 +6,14 @@
 Prerequisites: 
           ElectronJS:
           
-  Install it on your local machine with:
+  Install it on your local machine with the command:
   
        yarn global add electon
        
-*Installing our simplon project**
+       
+**Installing our simplon project to run it
 
-       git clone 
+       git clone
        
        make sure your are in the project folder
 
