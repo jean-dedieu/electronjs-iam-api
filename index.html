@@ -2,17 +2,86 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    
+    <!-- JavaScript Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link href="main.css" rel="stylesheet">
+
+    <title>Accueil</title>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./assets/images/logo_large.png" class="logo" alt="icone chevrot droit"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Accueil
+                <span class="visually-hidden"></span>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Médecin</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Rendez-vous</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Qui sommes-nous</a>
+            </li>
+            
+      
+          </ul>
+        
+        </div>
+      </div>
+    </nav>
+
+    <!--Test search form-->
+
+    
+   
+    
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+    <h1 class="main-titre text-center" >Bienvenue sur <strong>Remed</strong></h1>
+   <p class="text-center">Prendre rendez-vous médical n'a jamais été aussi simple</p>
+        
+       <p class="text-center">Prenez votre rendez-vous dès aujourd'hui</p>
 
+  <!--test search carroussel-->
+
+  <section>
+   
+</section>
+<section class="search-sec">
+    <div class="container">
+        <form action="#" method="post" novalidate="novalidate">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <input type="text" class="form-control search-slt" placeholder="Médecin,Spécialité...">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <input type="text" class="form-control search-slt" placeholder="Où ?">
+                        </div>
+                      
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <button type="button" class="btn btn-warning wrn-btn">Rechercher<img src="./assets/images/chevron.png" class="icons" alt="icone chevrot droit"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
   </body>

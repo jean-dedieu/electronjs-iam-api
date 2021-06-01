@@ -13,6 +13,7 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
+  //this file contains the what we will need to display to the window created above
   mainWindow.loadFile('index.html')
 
   // Open the DevTools.

@@ -4,3 +4,9 @@
 // `nodeIntegration` is turned off. Use `preload.js` to
 // selectively enable features needed in the rendering
 // process.
+const array1 = ['a', 'b', 'c'];
+
+for (const element of array1) {
+ console.log(element);
+
+}
